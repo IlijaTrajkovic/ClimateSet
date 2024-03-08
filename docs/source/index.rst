@@ -1,4 +1,4 @@
-Welcome to Lumache's documentation!
+Welcome to ClimateSet's documentation!
 ===================================
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
@@ -8,6 +8,8 @@ and offers a *simple* and *intuitive* API.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
+
+ClimateSet has its documentation hosted on Read the Docs.
 
 .. note::
 
