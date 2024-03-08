@@ -1,10 +1,8 @@
 Welcome to ClimateSet's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**ClimateSet:** Your gateway to powerful climate insights. Harnessing CMIP6 data, we provide a comprehensive platform for machine learning advancements in climate science. Explore our user-friendly API and unlock the potential of large-scale climate modeling for research and innovation.
+Our GitHub: <https://github.com/RolnickLab/ClimateSet>`_
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
