@@ -1,3 +1,36 @@
+
+
+Climate Context
+
+What are climate models?
+What do they include?
+What is their purpose?
+Types
+ESMs and GCMs
+What are Forcings?
+SSP Scenarios
+IPCC Assessment Reports
+Inputs and Outputs of a Climate Model
+Inputs
+Outputs
+Dimensionalities
+Types of experiments on climate models
+Data Sources
+CMIP6
+Input4Mips
+ESGF (Earth System Grid Federation)
+Different Tasks with Climate Models
+Climate projection
+Dimension reduction
+Downscaling
+Climate Model Emulation
+Metrics
+Additional
+Accuracy of climate model projections of temperature
+Main limitations in climate modelling
+Glossary
+Sources
+
 What are climate models?
 A climate model is a complex computational representation of the Earth's climate system. These models simulate the interactions between various components of the Earth, including the atmosphere, oceans, land surface, ice, and other factors, to predict and understand climate patterns and changes over time. Climate models are important tools for studying the Earth's climate, making predictions about future climate conditions, and assessing the potential impacts of various factors such as greenhouse gas emissions, land use changes, and atmospheric composition.
 What do they include?
@@ -117,6 +150,42 @@ Accuracy of climate model projections of temperature
 Climate models provide accurate projections of the overall trend and patterns of global temperature changes over the long term. They capture the fundamental warming trend associated with increased greenhouse gas concentrations. However, uncertainties exist in predicting specific regional variations, short-term fluctuations, and the exact magnitude of temperature changes. Ongoing advancements in model development and increased understanding of key processes aim to reduce uncertainties and enhance the accuracy of temperature projections. Evaluation against observed data and continuous model refinement contribute to improving the reliability of climate model temperature predictions.
 Main limitations in climate modelling
 Current limitations in climate modelling include finite spatial resolution, challenges in accurately representing cloud processes, uncertainties in feedback, incomplete understanding of biogeochemical processes, difficulties in simulating past climates and ice sheet dynamics, and challenges in predicting extreme events. Ocean circulation complexities, uncertainty quantification, and the need for substantial computational resources also pose challenges. Ongoing research aims to address these limitations and improve the accuracy of climate models for more reliable future projections and impact assessments.
+
+Glossary
+
+Aerosols: Tiny particles or droplets suspended in the atmosphere, often originating from natural sources or human activities, influencing climate by scattering or absorbing sunlight and affecting cloud formation.
+Aerosol Precursors: Substances that contribute to the formation of aerosols in the atmosphere
+Biomass Burning Data: Part of Input4MIPs, representing emissions from open biomass burning, used as input for climate models.
+Climate Emulation: The development of machine learning models to simulate climate model outputs.
+Climate Model: A mathematical representation of the Earth's climate system used for predicting future climate conditions.
+Climate Projection: A prediction of future climate conditions based on climate model simulations.
+Climate Scenario: A set of conditions used in climate models to project possible future climate states.
+Climate Variables: Parameters such as temperature, precipitation, and wind velocity used in climate models.
+ClimateSet: The dataset introduced here, providing climate model outputs and emission inputs for use in large-scale machine learning models.
+ClimateSet Data Pipeline: A modular pipeline for retrieving and preprocessing climate model data for ML tasks.
+CMIP6 (Coupled Model Intercomparison Project Phase 6): An archive uniting climate model outputs from various sources.
+CMIP6 (Coupled Model Intercomparison Project Phase 6): A project that collects climate model outputs from various sources, providing a comprehensive archive for climate-related research.
+Dimension Reduction: Techniques to streamline large datasets by reducing the number of variables while retaining essential information.
+Downscaling: A process of generating high-resolution climate predictions from lower-resolution climate models.
+ESGF (Earth System Grid Federation): A system for managing and distributing climate model data.
+Emulation: In the context of ClimateSet, it involves developing machine learning models to simulate climate model outputs, providing faster predictions for climate variables based on input data.
+Forcings: External factors influencing the Earth's energy balance, such as variations in solar radiation, greenhouse gas emissions, aerosols, and land use.
+GCMs (Global Climate Models): Complex simulations representing Earth's climate system, focusing primarily on the atmosphere.
+GHG (Greenhouse Gases): Gases like CO2 and CH4 that trap heat in the Earth's atmosphere.
+Grid: Spatial and temporal framework dividing the Earth's surface and atmosphere into discrete cells, facilitating the representation of physical and environmental variables at specific locations and time intervals for simulation and analysis.
+IPCC (Intergovernmental Panel on Climate Change): An international body assessing climate science.
+IPCC Assessment Reports: Comprehensive scientific evaluations of climate change, informing policymakers and based on consensus-building.
+HPC (High-Performance Compute) Cluster: A computing cluster designed for tasks requiring substantial processing power, beneficial for extending ClimateSet with additional climate models.
+Input4MIPs: Datasets collecting future emission trajectories of climate-forcing agents used as input for climate models.
+Model Outputs: The diverse information generated by climate models, including climate variables, radiative forcing, sea level change, and more.
+Preprocessing: The process of preparing raw climate data for machine learning tasks by handling inconsistencies, syncing parameters, and adjusting resolutions.
+Projection Uncertainties: Variabilities in climate model projections arising from differences in model formulations (inter-model variability) and initializations (intra-model variability).
+RMSE (Root Mean Squared Error): An evaluation metric used to assess the accuracy of climate emulators.
+Single Emulators and Super Emulators: ML models trained on a single climate model vs. those trained on a set of climate models for broader applications.
+Spatial and Temporal Resolution: The granularity of spatial and temporal dimensions in climate data.
+SSP (Shared Socioeconomic Pathways): Scenarios within ScenarioMIP representing different socioeconomic development pathways that influence greenhouse gas emissions.
+Weighting of Climate Models: Assigning different weights to climate models to prevent over or under-representation.
+
 
 Sources
 
