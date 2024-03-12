@@ -46,7 +46,8 @@ The main difference between GCMs (Global Climate Models) and ESMs (Earth System 
 It's important to note that while climate models are powerful tools, they have limitations and uncertainties. Improving the accuracy of models requires ongoing research, refinement, and validation against observed climate data. One of the recent improvements, and the one we focus on in ClimateSet, is using ML algorithms (ClimaX, U-Net, ConvLSTM, etc.) to emulate these models using much less computing power and hopefully achieving better accuracy.
 
 .. image:: climatemodel.png
-   :alt: Grid cells used by climate models and processes calculated in the model for each cell. Source: NOAA GFDL
+   :alt: Grid cells used by climate models and processes calculated in the model for each cell. 
+   Source: NOAA GFDL
 
 What are Forcings?
 ------------
@@ -150,6 +151,7 @@ In general, increasing the spatial resolution of a model by a factor of two will
 
 Climate Model Emulation
 ----------
+
 Climate emulation involves the development of machine learning models to simulate climate model outputs. The goal is to create emulators that can predict climate variables with greater efficiency than traditional climate models during inference. In this context, emulators receive input data such as greenhouse gas emission trajectories and generate climate projections. ClimateSet serves as a valuable resource for large-scale climate emulation tasks by providing a comprehensive dataset derived from 36 climate models.
 
 Emulation is crucial for handling the computational intensity of climate modelling, enabling faster simulations while maintaining accuracy. Two types of emulators are available in ClimateSet: Single Emulators, trained on individual climate models, and Super Emulators, capable of projecting responses from multiple models. Climate emulation plays a pivotal role in advancing climate research, facilitating tasks like predicting temperature and precipitation patterns. It is important to evaluate emulators across diverse climate models to ensure robust performance and generalisation.
@@ -160,6 +162,7 @@ Climate model emulation metrics are quantitative measures used to assess the acc
 
 Additional
 ----------
+
 Accuracy of climate model projections of temperature
 
 Climate models provide accurate projections of the overall trend and patterns of global temperature changes over the long term. They capture the fundamental warming trend associated with increased greenhouse gas concentrations. However, uncertainties exist in predicting specific regional variations, short-term fluctuations, and the exact magnitude of temperature changes. Ongoing advancements in model development and increased understanding of key processes aim to reduce uncertainties and enhance the accuracy of temperature projections. Evaluation against observed data and continuous model refinement contribute to improving the reliability of climate model temperature predictions.
