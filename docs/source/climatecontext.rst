@@ -6,7 +6,7 @@ Climate Context
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use ClimateSet, first install it using pip:
 
 .. code-block:: console
 
