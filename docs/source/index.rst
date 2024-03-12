@@ -18,5 +18,5 @@ Contents
 
 .. toctree::
 
-   climatecontext
    climateset
+   climatecontext
