@@ -1,4 +1,4 @@
-Usage
+ClimateSet
 =====
 
 .. _installation:
