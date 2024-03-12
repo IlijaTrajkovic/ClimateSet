@@ -46,9 +46,9 @@ The main difference between GCMs (Global Climate Models) and ESMs (Earth System 
 It's important to note that while climate models are powerful tools, they have limitations and uncertainties. Improving the accuracy of models requires ongoing research, refinement, and validation against observed climate data. One of the recent improvements, and the one we focus on in ClimateSet, is using ML algorithms (ClimaX, U-Net, ConvLSTM, etc.) to emulate these models using much less computing power and hopefully achieving better accuracy.
 
 .. image:: climatemodel.png
-   :alt: Grid cells used by climate models and processes calculated in the model for each cell. 
-   Source: NOAA GFDL
+   :alt: Grid cells used by climate models and processes calculated in the model for each cell. Source: NOAA GFDL
 
+.. _forcings:
 What are Forcings?
 ------------
 In climate models, "forcing" refers to external factors that influence the Earth's energy balance. This includes natural and human-induced changes such as variations in solar radiation, greenhouse gas emissions, aerosols, and land use. Forcings can lead to warming (positive radiative forcing) or cooling (negative radiative forcing) effects on the climate. Understanding and simulating these forcings help scientists study past climate changes and project future climate scenarios.
@@ -63,14 +63,13 @@ The numbers following SSP (e.g., SSP1-1.9, SSP1-2.6) represent the radiative for
 
 .. image:: Atmospheric_CO₂_concentrations_by_SSP_across_the_21st_century.svg
    :alt: Different SSP Scenarios Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
-
 IPCC Assessment Reports
 
 The IPCC Assessment Reports are comprehensive scientific evaluations of climate change, produced by thousands of experts. They cover the physical science basis, impacts on ecosystems and societies, and options for mitigation. The reports provide policymakers with crucial information for international climate negotiations and decisions. The assessment process includes consensus-building and is regularly updated to reflect the latest scientific knowledge, the most recent one being IPCC AR 6 from July 2023.
 
 .. image:: fig-1-4.jpg
    :alt: The first four IPCC assessment reports and the resolutions used in them Source: IPCC AR4, Fig 1.2
-
+.. _inputs_outputs:
 Inputs and Outputs of a Climate Model
 -----------
 
@@ -89,7 +88,6 @@ The inputs of a climate model comprise crucial elements defining the Earth's cli
 
 .. image:: parameterizations.png
    :alt: Factors influencing the climate which are used in climate models Image courtesy of MetEd, The COMET Program, UCAR.
-
 Outputs
 
 The output of a climate model comprises a diverse set of information representing the simulated behaviour of the Earth's climate system. Key components of climate model outputs include:
@@ -121,7 +119,7 @@ Scientists run various types of experiments on climate models to study different
 - Impact Assessments:  Models are employed to assess the potential impacts of climate change on ecosystems, agriculture, water resources, and human societies.
 
 - Paleoclimate Simulations:  Models are run to simulate past climates, including periods with different concentrations of greenhouse gases, ice ages, and warm intervals. 
-
+.. _datasources:
 Data Sources
 ---------
 
@@ -148,7 +146,7 @@ Downscaling
 Downscaling in climate science refers to the process of refining climate model outputs to a finer spatial resolution. Global Climate Models (GCMs) often have coarse resolutions, making them less suitable for regional-scale analyses. Downscaling involves using statistical or dynamical techniques to generate higher-resolution climate projections. ClimateSet may implement downscaling methods to enhance the spatial precision of its dataset, providing more detailed information about local climate impacts. Downscaled data allows researchers to better understand regional variations in climate patterns, essential for addressing localised impacts of climate change and supporting more accurate decision-making in areas such as agriculture, water resources, and infrastructure planning.
 
 In general, increasing the spatial resolution of a model by a factor of two will require around 10 times the computing power to run in the same amount of time. (Source: https://scied.ucar.edu/longcontent/climate-modeling)
-
+.. _climateemulation:
 Climate Model Emulation
 ----------
 
@@ -159,7 +157,7 @@ Emulation is crucial for handling the computational intensity of climate modelli
 Metrics
 
 Climate model emulation metrics are quantitative measures used to assess the accuracy and performance of machine learning models in simulating climate variables. In ClimateSet, the latitude-longitude weighted root mean squared error (RMSE) is a primary evaluation metric for assessing the performance of emulators. This metric quantifies the difference between predicted and observed values, providing insights into the model's ability to replicate climate model outputs. Robust evaluation metrics are crucial for determining the reliability and generalisation capabilities of emulators across diverse climate models.
-
+.. _additional:
 Additional
 ----------
 
