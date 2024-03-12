@@ -46,9 +46,7 @@ The main difference between GCMs (Global Climate Models) and ESMs (Earth System 
 It's important to note that while climate models are powerful tools, they have limitations and uncertainties. Improving the accuracy of models requires ongoing research, refinement, and validation against observed climate data. One of the recent improvements, and the one we focus on in ClimateSet, is using ML algorithms (ClimaX, U-Net, ConvLSTM, etc.) to emulate these models using much less computing power and hopefully achieving better accuracy.
 
 .. image:: climatemodel.png
-   :alt: 
-   Grid cells used by climate models and processes calculated in the model for each cell.
-   Source: NOAA GFDL
+   :alt: Grid cells used by climate models and processes calculated in the model for each cell. Source: NOAA GFDL
 
 What are Forcings?
 ------------
@@ -63,18 +61,14 @@ The SSPs are used in conjunction with Representative Concentration Pathways (RCP
 The numbers following SSP (e.g., SSP1-1.9, SSP1-2.6) represent the radiative forcing level in watts per square metre (W/m²) by the end of the 21st century for the respective scenario. Lower numbers indicate lower radiative forcing, implying more stringent climate mitigation measures, while higher numbers suggest higher emissions and less stringent mitigation. For example, SSP1-1.9 corresponds to a scenario aiming to limit global warming to 1.9°C, while SSP1-2.6 targets a 2.6°C limit. These values help quantify the extent of climate change mitigation in each scenario, providing a basis for understanding potential future climate conditions.
 
 .. image:: Atmospheric_CO₂_concentrations_by_SSP_across_the_21st_century.svg
-   :alt: 
-   Different SSP Scenarios
-   Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+   :alt: Different SSP Scenarios Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 
 IPCC Assessment Reports
 
 The IPCC Assessment Reports are comprehensive scientific evaluations of climate change, produced by thousands of experts. They cover the physical science basis, impacts on ecosystems and societies, and options for mitigation. The reports provide policymakers with crucial information for international climate negotiations and decisions. The assessment process includes consensus-building and is regularly updated to reflect the latest scientific knowledge, the most recent one being IPCC AR 6 from July 2023.
 
 .. image:: fig-1-4.jpg
-   :alt: 
-   The first four IPCC assessment reports and the resolutions used in them
-   Source: IPCC AR4, Fig 1.2
+   :alt: The first four IPCC assessment reports and the resolutions used in them Source: IPCC AR4, Fig 1.2
 
 Inputs and Outputs of a Climate Model
 -----------
@@ -93,9 +87,7 @@ The inputs of a climate model comprise crucial elements defining the Earth's cli
 - Model Parameters: Values defining model components like cloud physics, ocean circulation, and vegetation properties.
 
 .. image:: parameterizations.png
-   :alt: 
-   Factors influencing the climate which are used in climate models
-   Image courtesy of MetEd, The COMET Program, UCAR.
+   :alt: Factors influencing the climate which are used in climate models Image courtesy of MetEd, The COMET Program, UCAR.
 
 Outputs
 
@@ -157,7 +149,7 @@ Downscaling in climate science refers to the process of refining climate model o
 In general, increasing the spatial resolution of a model by a factor of two will require around 10 times the computing power to run in the same amount of time. (Source: https://scied.ucar.edu/longcontent/climate-modeling)
 
 Climate Model Emulation
-
+----------
 Climate emulation involves the development of machine learning models to simulate climate model outputs. The goal is to create emulators that can predict climate variables with greater efficiency than traditional climate models during inference. In this context, emulators receive input data such as greenhouse gas emission trajectories and generate climate projections. ClimateSet serves as a valuable resource for large-scale climate emulation tasks by providing a comprehensive dataset derived from 36 climate models.
 
 Emulation is crucial for handling the computational intensity of climate modelling, enabling faster simulations while maintaining accuracy. Two types of emulators are available in ClimateSet: Single Emulators, trained on individual climate models, and Super Emulators, capable of projecting responses from multiple models. Climate emulation plays a pivotal role in advancing climate research, facilitating tasks like predicting temperature and precipitation patterns. It is important to evaluate emulators across diverse climate models to ensure robust performance and generalisation.
@@ -167,7 +159,7 @@ Metrics
 Climate model emulation metrics are quantitative measures used to assess the accuracy and performance of machine learning models in simulating climate variables. In ClimateSet, the latitude-longitude weighted root mean squared error (RMSE) is a primary evaluation metric for assessing the performance of emulators. This metric quantifies the difference between predicted and observed values, providing insights into the model's ability to replicate climate model outputs. Robust evaluation metrics are crucial for determining the reliability and generalisation capabilities of emulators across diverse climate models.
 
 Additional
-
+----------
 Accuracy of climate model projections of temperature
 
 Climate models provide accurate projections of the overall trend and patterns of global temperature changes over the long term. They capture the fundamental warming trend associated with increased greenhouse gas concentrations. However, uncertainties exist in predicting specific regional variations, short-term fluctuations, and the exact magnitude of temperature changes. Ongoing advancements in model development and increased understanding of key processes aim to reduce uncertainties and enhance the accuracy of temperature projections. Evaluation against observed data and continuous model refinement contribute to improving the reliability of climate model temperature predictions.
