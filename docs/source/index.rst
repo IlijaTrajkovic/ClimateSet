@@ -20,3 +20,4 @@ Contents
 
    climateset
    climatecontext
+   glossary
