@@ -146,7 +146,7 @@ Downscaling
 Downscaling in climate science refers to the process of refining climate model outputs to a finer spatial resolution. Global Climate Models (GCMs) often have coarse resolutions, making them less suitable for regional-scale analyses. Downscaling involves using statistical or dynamical techniques to generate higher-resolution climate projections. ClimateSet may implement downscaling methods to enhance the spatial precision of its dataset, providing more detailed information about local climate impacts. Downscaled data allows researchers to better understand regional variations in climate patterns, essential for addressing localised impacts of climate change and supporting more accurate decision-making in areas such as agriculture, water resources, and infrastructure planning.
 
 In general, increasing the spatial resolution of a model by a factor of two will require around 10 times the computing power to run in the same amount of time. (Source: https://scied.ucar.edu/longcontent/climate-modeling)
-.. _climateemulation:
+
 Climate Model Emulation
 ----------
 
@@ -157,7 +157,8 @@ Emulation is crucial for handling the computational intensity of climate modelli
 Metrics
 
 Climate model emulation metrics are quantitative measures used to assess the accuracy and performance of machine learning models in simulating climate variables. In ClimateSet, the latitude-longitude weighted root mean squared error (RMSE) is a primary evaluation metric for assessing the performance of emulators. This metric quantifies the difference between predicted and observed values, providing insights into the model's ability to replicate climate model outputs. Robust evaluation metrics are crucial for determining the reliability and generalisation capabilities of emulators across diverse climate models.
-.. _additional:
+
+
 Additional
 ----------
 
@@ -168,3 +169,12 @@ Climate models provide accurate projections of the overall trend and patterns of
 Main limitations in climate modelling
 
 Current limitations in climate modelling include finite spatial resolution, challenges in accurately representing cloud processes, uncertainties in feedback, incomplete understanding of biogeochemical processes, difficulties in simulating past climates and ice sheet dynamics, and challenges in predicting extreme events. Ocean circulation complexities, uncertainty quantification, and the need for substantial computational resources also pose challenges. Ongoing research aims to address these limitations and improve the accuracy of climate models for more reliable future projections and impact assessments.
+
+Sources
+-------
+
+Watson-Parris, D. (2021). Machine learning for weather and climate are worlds apart. Philosophical Transactions of the Royal Society A, 379(2194), 20200098. https://doi.org/10.1098/rsta.2020.0098
+
+McSweeney, Robert. “Q&A: How Do Climate Models Work?” Carbon Brief, July 20, 2022. https://www.carbonbrief.org/qa-how-do-climate-models-work/.
+
+IPCC, 2018: Annex I: Glossary [Matthews, J.B.R. (ed.)]. In: Global Warming of 1.5°C. An IPCC Special Report on the impacts of global warming of 1.5°C above pre-industrial levels and related global greenhouse gas emission pathways, in the context of strengthening the global response to the threat of climate change, sustainable development, and efforts to eradicate poverty [Masson-Delmotte, V., P. Zhai, H.-O. Pörtner, D. Roberts, J. Skea, P.R. Shukla, A. Pirani, W. Moufouma-Okia, C. Péan, R. Pidcock, S. Connors, J.B.R. Matthews, Y. Chen, X. Zhou, M.I. Gomis, E. Lonnoy, T. Maycock, M. Tignor, and T. Waterfield (eds.)]. Cambridge University Press, Cambridge, UK and New York, NY, USA, pp. 541-562, doi:10.1017/9781009157940.008.
