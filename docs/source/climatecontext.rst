@@ -38,8 +38,9 @@ The main difference between GCMs (Global Climate Models) and ESMs (Earth System 
  
 It's important to note that while climate models are powerful tools, they have limitations and uncertainties. Improving the accuracy of models requires ongoing research, refinement, and validation against observed climate data. One of the recent improvements, and the one we focus on in ClimateSet, is using ML algorithms (ClimaX, U-Net, ConvLSTM, etc.) to emulate these models using much less computing power and hopefully achieving better accuracy.
 
-![Grid cells used by climate models and processes calculated in the model for each cell.
-Source: NOAA GFDL](climatemodel.png)
+.. image:: climatemodel.png
+   :alt: Grid cells used by climate models and processes calculated in the model for each cell.
+Source: NOAA GFDL
 
 
 .. autosummary::
