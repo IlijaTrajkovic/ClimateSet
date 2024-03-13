@@ -69,7 +69,7 @@ The numbers following SSP (e.g., SSP1-1.9, SSP1-2.6) represent the radiative for
    :align: center
    :alt: Different SSP Scenarios. Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 
-Different SSP Scenarios. Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+   Different SSP Scenarios. Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 
 **IPCC Assessment Reports**
 
@@ -80,7 +80,7 @@ The IPCC Assessment Reports are comprehensive scientific evaluations of climate 
    :align: center
    :alt: The first four IPCC assessment reports and the resolutions used in them. Source: IPCC AR4, Fig 1.2
 
-The first four IPCC assessment reports and the resolutions used in them. Source: IPCC AR4, Fig 1.2
+   The first four IPCC assessment reports and the resolutions used in them. Source: IPCC AR4, Fig 1.2
 
 Inputs and Outputs of a Climate Model
 -------------------------------------
@@ -103,7 +103,7 @@ The inputs of a climate model comprise crucial elements defining the Earth's cli
    :align: center
    :alt: Factors influencing the climate which are used in climate models. Image courtesy of MetEd, The COMET Program, UCAR.
 
-Factors influencing the climate which are used in climate models. Image courtesy of MetEd, The COMET Program, UCAR.
+   Factors influencing the climate which are used in climate models. Image courtesy of MetEd, The COMET Program, UCAR.
 
 **Outputs**
 
