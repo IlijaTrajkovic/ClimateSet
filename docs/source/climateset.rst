@@ -9,41 +9,9 @@ ClimateSet's significance lies in its ability to address two key objectives: pro
  
 To facilitate the use of ClimateSet, a modular dataset pipeline is introduced, allowing users to retrieve and preprocess climate model data for ML tasks. The document details the preprocessing steps, addressing inconsistencies across different datasets and climate models. The preprocessor, built modularly, checks for corrupt files, variable naming, units, temporal and spatial resolution, and structure. It ensures that the data is ready for use in ML applications by syncing time-axis, calendars, and height levels, and resolving other relevant issues.
  
-Users can access ClimateSet through the provided website <https://github.com/RolnickLab/ClimateSet>, where both raw and processed data are available. The dataset can be extended by users who desire additional scenarios, climate forcers, or other variables, provided the requested data is available on the Earth System Grid Federation (ESGF) server. The preprocessing of ClimateSet can also be accelerated using multi-thread functions and other optimizations.
+Users can access ClimateSet through the provided website (https://github.com/RolnickLab/ClimateSet), where both raw and processed data are available. The dataset can be extended by users who desire additional scenarios, climate forcers, or other variables, provided the requested data is available on the Earth System Grid Federation (ESGF) server. The preprocessing of ClimateSet can also be accelerated using multi-thread functions and other optimizations.
  
 The heart of ClimateSet's utility is demonstrated through a benchmarking setup, showcasing its application in climate emulation tasks. ML models, including Convolutional long short-term memory (ConvLSTM), U-Net, and ClimaX, are trained and evaluated on the dataset. The results reveal insights into model performance across different climate models and scenarios, emphasising the importance of evaluating ML models on a set of climate models rather than just one.
  
 ClimateSet is a valuable resource that bridges the gap between climate science and ML. It provides a consistent, multi-climate-model dataset along with tools for easy access and preprocessing. Researchers and policymakers can leverage ClimateSet to enhance ML models' performance, contribute to climate-related tasks at scale, and ultimately make meaningful strides in climate policy making.
-
-
-.. _installation:
-
-Installation
-------------
-
-To use Lumache, first install it using pip:
-
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 

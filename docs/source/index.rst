@@ -2,10 +2,9 @@ Welcome to ClimateSet's documentation!
 ========================================
 
 **ClimateSet:** Your gateway to powerful climate insights. Harnessing CMIP6 data, we provide a comprehensive platform for machine learning advancements in climate science. Explore our user-friendly API and unlock the potential of large-scale climate modeling for research and innovation.
-Our GitHub: <https://github.com/RolnickLab/ClimateSet>`_
+Our GitHub: https://github.com/RolnickLab/ClimateSet
 
-Check out the :doc:`climateset` section for further information, including
-how to :ref:`installation` the project.
+Check out the :doc:`climateset` section for further information.
 
 ClimateSet has its documentation hosted on Read the Docs.
 
