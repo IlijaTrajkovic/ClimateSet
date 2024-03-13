@@ -28,13 +28,17 @@ These models use mathematical equations to describe the physical, chemical, and 
 
 **What is their purpose?**
 
-- Understanding Climate Processes: Models help scientists understand the fundamental processes driving climate variability and change.
+``Understanding Climate Processes``
+   Models help scientists understand the fundamental processes driving climate variability and change.
 
-- Predicting Future Climate: By inputting different scenarios of human activities and natural processes, models can project future climate conditions under different circumstances.
+``Predicting Future Climate``
+   By inputting different scenarios of human activities and natural processes, models can project future climate conditions under different circumstances.
 
-- Assessing Climate Impact: Models are used to assess the potential impacts of climate change on ecosystems, agriculture, water resources, and human societies.
+``Assessing Climate Impact``
+   Models are used to assess the potential impacts of climate change on ecosystems, agriculture, water resources, and human societies.
 
-- Policy Decision Support: Climate models provide information to policymakers to make informed decisions about climate mitigation and adaptation strategies.
+``Policy Decision Support``
+   Climate models provide information to policymakers to make informed decisions about climate mitigation and adaptation strategies.
 
 **Types**
 
@@ -55,7 +59,7 @@ It's important to note that while climate models are powerful tools, they have l
    :alt: Grid cells used by climate models and processes calculated in the model for each cell. Source: NOAA GFDL
 
    Grid cells used by climate models and processes calculated in the model for each cell. 
-   Source: NOAA GFDL
+   (Source: NOAA GFDL)
 
 What are Forcings?
 ------------------
@@ -76,7 +80,7 @@ The numbers following SSP (e.g., SSP1-1.9, SSP1-2.6) represent the radiative for
    :alt: Different SSP Scenarios. Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 
    Different SSP Scenarios. 
-   Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+   (Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons)
 
 **IPCC Assessment Reports**
 
@@ -88,7 +92,7 @@ The IPCC Assessment Reports are comprehensive scientific evaluations of climate 
    :alt: The first four IPCC assessment reports and the resolutions used in them. Source: IPCC AR4, Fig 1.2
 
    The first four IPCC assessment reports and the resolutions used in them. 
-   Source: IPCC AR4, Fig 1.2
+   (Source: IPCC AR4, Fig 1.2)
 
 Inputs and Outputs of a Climate Model
 -------------------------------------
@@ -118,7 +122,7 @@ The inputs of a climate model comprise crucial elements defining the Earth's cli
    :alt: Factors influencing the climate which are used in climate models. Image courtesy of MetEd, The COMET Program, UCAR.
 
    Factors influencing the climate which are used in climate models. 
-   Image courtesy of MetEd, The COMET Program, UCAR.
+   (Image courtesy of MetEd, The COMET Program, UCAR.)
 
 **Outputs**
 
@@ -141,17 +145,23 @@ In the context of climate modelling, "dimensionalities" refer to the diverse asp
 
 Scientists run various types of experiments on climate models to study different aspects of the Earth's climate system and assess the potential impacts of various factors. Some common types of experiments include:
  
-- Historical Simulations: Models are run using observed historical data for atmospheric composition, solar radiation, and other relevant variables to simulate past climate conditions. 
+``Historical Simulations``
+   Models are run using observed historical data for atmospheric composition, solar radiation, and other relevant variables to simulate past climate conditions. 
 
-- Future Projections:  Models simulate future climate conditions under different scenarios of greenhouse gas emissions, land use changes, and other human activities. 
+``Future Projections``
+   Models simulate future climate conditions under different scenarios of greenhouse gas emissions, land use changes, and other human activities. 
 
-- Sensitivity Experiments: Scientists systematically vary specific model parameters or initial conditions to assess the sensitivity of the climate system to changes in those factors.
+``Sensitivity Experiments``
+   Scientists systematically vary specific model parameters or initial conditions to assess the sensitivity of the climate system to changes in those factors.
  
-- Emission Scenarios: Models are used to project future climate conditions based on different scenarios of future greenhouse gas emissions. 
+``Emission Scenarios``
+   Models are used to project future climate conditions based on different scenarios of future greenhouse gas emissions. 
 
-- Impact Assessments:  Models are employed to assess the potential impacts of climate change on ecosystems, agriculture, water resources, and human societies.
+``Impact Assessments``
+   Models are employed to assess the potential impacts of climate change on ecosystems, agriculture, water resources, and human societies.
 
-- Paleoclimate Simulations:  Models are run to simulate past climates, including periods with different concentrations of greenhouse gases, ice ages, and warm intervals. 
+``Paleoclimate Simulations``
+   Models are run to simulate past climates, including periods with different concentrations of greenhouse gases, ice ages, and warm intervals. 
 
 
 Data Sources
