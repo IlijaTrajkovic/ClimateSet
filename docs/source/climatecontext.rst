@@ -40,9 +40,7 @@ These models use mathematical equations to describe the physical, chemical, and 
 ``Policy Decision Support``
    Climate models provide information to policymakers to make informed decisions about climate mitigation and adaptation strategies.
 
-**Types**
-
-**ESMs and GCMs**
+**Types of climate models - ESMs and GCMs**
 
 GCMs and ESMs are both types of climate models used in climate research. They stand for General Circulation Models (GCMs) and Earth System Models (ESMs).
  
