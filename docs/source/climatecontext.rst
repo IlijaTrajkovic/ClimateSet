@@ -45,7 +45,7 @@ The main difference between GCMs (Global Climate Models) and ESMs (Earth System 
 It's important to note that while climate models are powerful tools, they have limitations and uncertainties. Improving the accuracy of models requires ongoing research, refinement, and validation against observed climate data. One of the recent improvements, and the one we focus on in ClimateSet, is using ML algorithms (ClimaX, U-Net, ConvLSTM, etc.) to emulate these models using much less computing power and hopefully achieving better accuracy.
 
 .. figure:: climatemodel.png
-   :width: 60%
+   :width: 100%
    :align: center
    :alt: Grid cells used by climate models and processes calculated in the model for each cell. Source: NOAA GFDL
 
@@ -65,7 +65,7 @@ The SSPs are used in conjunction with Representative Concentration Pathways (RCP
 The numbers following SSP (e.g., SSP1-1.9, SSP1-2.6) represent the radiative forcing level in watts per square metre (W/m²) by the end of the 21st century for the respective scenario. Lower numbers indicate lower radiative forcing, implying more stringent climate mitigation measures, while higher numbers suggest higher emissions and less stringent mitigation. For example, SSP1-1.9 corresponds to a scenario aiming to limit global warming to 1.9°C, while SSP1-2.6 targets a 2.6°C limit. These values help quantify the extent of climate change mitigation in each scenario, providing a basis for understanding potential future climate conditions.
 
 .. figure:: Atmospheric_CO₂_concentrations_by_SSP_across_the_21st_century.png
-   :width: 60%
+   :width: 100%
    :align: center
    :alt: Different SSP Scenarios. Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 
@@ -76,7 +76,7 @@ Different SSP Scenarios. Source: Sfdiversity, CC BY-SA 4.0 <https://creativecomm
 The IPCC Assessment Reports are comprehensive scientific evaluations of climate change, produced by thousands of experts. They cover the physical science basis, impacts on ecosystems and societies, and options for mitigation. The reports provide policymakers with crucial information for international climate negotiations and decisions. The assessment process includes consensus-building and is regularly updated to reflect the latest scientific knowledge, the most recent one being IPCC AR 6 from July 2023.
 
 .. figure:: fig-1-4.jpg
-   :width: 60%
+   :width: 100%
    :align: center
    :alt: The first four IPCC assessment reports and the resolutions used in them. Source: IPCC AR4, Fig 1.2
 
@@ -99,7 +99,7 @@ The inputs of a climate model comprise crucial elements defining the Earth's cli
 - Model Parameters: Values defining model components like cloud physics, ocean circulation, and vegetation properties.
 
 .. figure:: parameterizations.png
-   :width: 60%
+   :width: 80%
    :align: center
    :alt: Factors influencing the climate which are used in climate models. Image courtesy of MetEd, The COMET Program, UCAR.
 

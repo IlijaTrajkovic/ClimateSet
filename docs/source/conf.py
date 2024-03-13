@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'ClimateSet'
-copyright = '2024, Mila'
-author = 'Ilija'
+copyright = '2024, Mila - Quebec AI Institute'
+author = 'Ilija Trajkovic'
 
 release = '0.1'
 version = '0.1.0'
