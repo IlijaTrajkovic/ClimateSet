@@ -2,8 +2,6 @@ Climate Context
 ======================
 
 
-.. _climatemodels:
-
 What are climate models?
 ------------------------
 
@@ -49,7 +47,6 @@ It's important to note that while climate models are powerful tools, they have l
 .. image:: climatemodel.png
    :alt: Grid cells used by climate models and processes calculated in the model for each cell. Source: NOAA GFDL
 
-.. _forcings:
 
 What are Forcings?
 ------------------
@@ -74,7 +71,6 @@ The IPCC Assessment Reports are comprehensive scientific evaluations of climate 
 .. image:: fig-1-4.jpg
    :alt: The first four IPCC assessment reports and the resolutions used in them Source: IPCC AR4, Fig 1.2
 
-.. _inputs_outputs:
 
 Inputs and Outputs of a Climate Model
 -------------------------------------
@@ -127,7 +123,6 @@ Scientists run various types of experiments on climate models to study different
 
 - Paleoclimate Simulations:  Models are run to simulate past climates, including periods with different concentrations of greenhouse gases, ice ages, and warm intervals. 
 
-.. _datasources:
 
 Data Sources
 ------------
