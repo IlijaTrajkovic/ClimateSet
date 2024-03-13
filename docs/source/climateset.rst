@@ -16,3 +16,10 @@ The heart of ClimateSet's utility is demonstrated through a benchmarking setup, 
  
 ClimateSet is a valuable resource that bridges the gap between climate science and ML. It provides a consistent, multi-climate-model dataset along with tools for easy access and preprocessing. Researchers and policymakers can leverage ClimateSet to enhance ML models' performance, contribute to climate-related tasks at scale, and ultimately make meaningful strides in climate policy making.
 
+Useful links
+------------
+
+CMIP6 overview of all available data: https://pcmdi.llnl.gov/CMIP6/ArchiveStatistics/esgf_data_holdings/
+IPCC website: https://www.ipcc.ch
+ESGF website: https://esgf.llnl.gov/
+ClimateSet GitHub: https://github.com/RolnickLab/ClimateSet
