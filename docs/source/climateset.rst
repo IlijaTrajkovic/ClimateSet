@@ -11,12 +11,12 @@ of climate forcing agents**, crucial for predicting climate model responses. The
 aerosols, and aerosol precursor emission inputs for five different scenarios.
  
 ClimateSet's significance lies in its ability to address two key objectives: providing **sufficient training data for large-scale ML models** and **capturing the projection 
-uncertainty across different climate models**. The need for such a dataset arises from the inherent challenges in climate-related tasks, including high dimensionality, 
-low sample size, and distribution shifts within the data. ClimateSet tackles these challenges by offering a **consistent and sizable dataset**, paving the way for ML models 
+uncertainty across different climate models**. The need for such a dataset arises from the inherent challenges in climate-related tasks, including **high dimensionality**, 
+**low sample size**, and **distribution shifts** within the data. ClimateSet tackles these challenges by offering a **consistent and sizable dataset**, paving the way for ML models 
 to contribute meaningfully to climate-related modeling tasks.
  
 To facilitate the use of ClimateSet, a **modular dataset pipeline** is introduced, allowing users to **retrieve and preprocess climate model data** for ML tasks. 
-The document details the preprocessing steps, addressing inconsistencies across different datasets and climate models. 
+In our paper we detail the preprocessing steps, addressing inconsistencies across different datasets and climate models. 
 The preprocessor, built modularly, checks for corrupt files, variable naming, units, temporal and spatial resolution, and structure. 
 It ensures that the data is ready for use in ML applications by syncing time-axis, calendars, and height levels, and resolving other relevant issues.
  

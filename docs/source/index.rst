@@ -7,7 +7,7 @@ Our GitHub: https://github.com/RolnickLab/ClimateSet
 
 Read the :doc:`climateset` section for further information about the project.
 
-Also check out the :doc:`climatecontext` section if you want to learn more about climate models, climate emulation and other concepts important for understanding ClimateSet.
+Also check out the :doc:`climatecontext` section if you want to learn more about climate models, climate model emulation and other concepts important for understanding ClimateSet.
 
 ClimateSet has its documentation hosted on Read the Docs.
 
