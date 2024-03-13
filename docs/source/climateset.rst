@@ -1,4 +1,3 @@
-===========
 ClimateSet
 ===========
 
@@ -20,6 +19,9 @@ Useful links
 ------------
 
 CMIP6 overview of all available data: https://pcmdi.llnl.gov/CMIP6/ArchiveStatistics/esgf_data_holdings/
+
 IPCC website: https://www.ipcc.ch
+
 ESGF website: https://esgf.llnl.gov/
+
 ClimateSet GitHub: https://github.com/RolnickLab/ClimateSet
