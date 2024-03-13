@@ -1,5 +1,5 @@
 ClimateSet
-=====
+===========
 
 ClimateSet is an initiative aimed at providing a comprehensive and accessible dataset for the intersection of climate science and machine learning (ML). It is a dataset containing inputs and outputs from 36 different climate models, addressing a crucial need in the ML community to support climate scientists in various tasks such as climate model emulation, downscaling, and prediction.
  

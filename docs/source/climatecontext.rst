@@ -66,6 +66,7 @@ The numbers following SSP (e.g., SSP1-1.9, SSP1-2.6) represent the radiative for
 
 .. image:: Atmospheric_CO₂_concentrations_by_SSP_across_the_21st_century.png
    :alt: Different SSP Scenarios Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+   
 IPCC Assessment Reports
 
 The IPCC Assessment Reports are comprehensive scientific evaluations of climate change, produced by thousands of experts. They cover the physical science basis, impacts on ecosystems and societies, and options for mitigation. The reports provide policymakers with crucial information for international climate negotiations and decisions. The assessment process includes consensus-building and is regularly updated to reflect the latest scientific knowledge, the most recent one being IPCC AR 6 from July 2023.
