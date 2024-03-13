@@ -9,15 +9,20 @@ A climate model is a complex computational representation of the Earth's climate
 
 **What do they include?**
 
-- Atmospheric Model: Simulates the behaviour of the Earth's atmosphere, including temperature, pressure, humidity, and wind patterns.
+``Atmospheric Model``
+   Simulates the behaviour of the Earth's atmosphere, including temperature, pressure, humidity, and wind patterns.
 
-- Ocean Model: Represents the behaviour of the world's oceans, including ocean currents, temperatures, and sea ice.
+``Ocean Model``
+   Represents the behaviour of the world's oceans, including ocean currents, temperatures, and sea ice.
 
-- Land Surface Model: Simulates processes on land, such as vegetation dynamics, soil moisture, and land-atmosphere interactions.
+``Land Surface Model``
+   Simulates processes on land, such as vegetation dynamics, soil moisture, and land-atmosphere interactions.
 
-- Sea Ice Model: Represents the formation, melting, and movement of sea ice in polar regions.
+``Sea Ice Model``
+   Represents the formation, melting, and movement of sea ice in polar regions.
 
-- Biogeochemical Model: Incorporates biological and chemical processes, including the carbon cycle, to simulate interactions between the atmosphere, oceans, and land.
+``Biogeochemical Model``
+   Incorporates biological and chemical processes, including the carbon cycle, to simulate interactions between the atmosphere, oceans, and land.
  
 These models use mathematical equations to describe the physical, chemical, and biological processes that occur in each component of the Earth system. They are run on powerful supercomputers, which still take a long time, sometimes even several months to simulate climate conditions over time spans ranging from years to centuries and are validated against historical climate data to ensure their accuracy and reliability.
 
@@ -50,7 +55,7 @@ It's important to note that while climate models are powerful tools, they have l
    :alt: Grid cells used by climate models and processes calculated in the model for each cell. Source: NOAA GFDL
 
    Grid cells used by climate models and processes calculated in the model for each cell. 
-   Source: NOAA GFDL
+      Source: NOAA GFDL
 
 What are Forcings?
 ------------------
@@ -71,7 +76,7 @@ The numbers following SSP (e.g., SSP1-1.9, SSP1-2.6) represent the radiative for
    :alt: Different SSP Scenarios. Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 
    Different SSP Scenarios. 
-   Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+      Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 
 **IPCC Assessment Reports**
 
@@ -83,7 +88,7 @@ The IPCC Assessment Reports are comprehensive scientific evaluations of climate 
    :alt: The first four IPCC assessment reports and the resolutions used in them. Source: IPCC AR4, Fig 1.2
 
    The first four IPCC assessment reports and the resolutions used in them. 
-   Source: IPCC AR4, Fig 1.2
+      Source: IPCC AR4, Fig 1.2
 
 Inputs and Outputs of a Climate Model
 -------------------------------------
@@ -94,12 +99,18 @@ Climate models take a range of inputs and produce various outputs to simulate an
 
 The inputs of a climate model comprise crucial elements defining the Earth's climate system's initial state and external influences. Key components in ClimateSet's context include:
 
-- Initial Conditions: The starting state of the atmosphere, oceans, land, and ice components.
-- Emission Scenarios: Future projections of greenhouse gas emissions, land use changes, and human activities.
-- Observational Data: Real-world observations assimilated to refine model simulations.
-- Forcing Data: External data influencing the model, e.g., observational datasets.
-- Computational Grid: Spatial and temporal resolution, determining simulation detail.
-- Model Parameters: Values defining model components like cloud physics, ocean circulation, and vegetation properties.
+``Initial Conditions``
+   The starting state of the atmosphere, oceans, land, and ice components.
+``Emission Scenarios``
+   Future projections of greenhouse gas emissions, land use changes, and human activities.
+``Observational Data``
+   Real-world observations assimilated to refine model simulations.
+``Forcing Data``
+   External data influencing the model, e.g., observational datasets.
+``Computational Grid``
+   Spatial and temporal resolution, determining simulation detail.
+``Model Parameters``
+   Values defining model components like cloud physics, ocean circulation, and vegetation properties.
 
 .. figure:: parameterizations.png
    :width: 80%
@@ -107,17 +118,18 @@ The inputs of a climate model comprise crucial elements defining the Earth's cli
    :alt: Factors influencing the climate which are used in climate models. Image courtesy of MetEd, The COMET Program, UCAR.
 
    Factors influencing the climate which are used in climate models. 
-   Image courtesy of MetEd, The COMET Program, UCAR.
+      Image courtesy of MetEd, The COMET Program, UCAR.
 
 **Outputs**
 
 The output of a climate model comprises a diverse set of information representing the simulated behaviour of the Earth's climate system. Key components of climate model outputs include:
  
-- Climate Variables
+``Climate Variables``
    - Temperature, precipitation, humidity, wind speed, and other atmospheric variables.
    - Oceanic variables, including sea surface temperature, ocean currents, and salinity.
    - Land surface variables, such as soil moisture, snow cover, and vegetation.
-- Uncertainty Estimates: Models often provide uncertainty ranges for various variables to account for the inherent uncertainties in climate predictions.
+``Uncertainty Estimates``
+   Models often provide uncertainty ranges for various variables to account for the inherent uncertainties in climate predictions.
  
 Model outputs are often used in conjunction with observational data to validate and improve the models, ensuring they provide reliable and actionable information.
 
