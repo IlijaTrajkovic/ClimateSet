@@ -1,11 +1,11 @@
 Climate Context
-======
+===============
 
 
 .. _climatemodels:
-
 What are climate models?
-------------
+------------------------
+
 A climate model is a complex computational representation of the Earth's climate system. These models simulate the interactions between various components of the Earth, including the atmosphere, oceans, land surface, ice, and other factors, to predict and understand climate patterns and changes over time. Climate models are important tools for studying the Earth's climate, making predictions about future climate conditions, and assessing the potential impacts of various factors such as greenhouse gas emissions, land use changes, and atmospheric composition.
 
 What do they include?
@@ -50,7 +50,8 @@ It's important to note that while climate models are powerful tools, they have l
 
 .. _forcings:
 What are Forcings?
-------------
+------------------
+
 In climate models, "forcing" refers to external factors that influence the Earth's energy balance. This includes natural and human-induced changes such as variations in solar radiation, greenhouse gas emissions, aerosols, and land use. Forcings can lead to warming (positive radiative forcing) or cooling (negative radiative forcing) effects on the climate. Understanding and simulating these forcings help scientists study past climate changes and project future climate scenarios.
 
 SSP Scenarios
@@ -69,9 +70,10 @@ The IPCC Assessment Reports are comprehensive scientific evaluations of climate 
 
 .. image:: fig-1-4.jpg
    :alt: The first four IPCC assessment reports and the resolutions used in them Source: IPCC AR4, Fig 1.2
+
 .. _inputs_outputs:
 Inputs and Outputs of a Climate Model
------------
+-------------------------------------
 
 Climate models take a range of inputs and produce various outputs to simulate and predict the behaviour of the Earth's climate system.
 
@@ -88,6 +90,7 @@ The inputs of a climate model comprise crucial elements defining the Earth's cli
 
 .. image:: parameterizations.png
    :alt: Factors influencing the climate which are used in climate models Image courtesy of MetEd, The COMET Program, UCAR.
+
 Outputs
 
 The output of a climate model comprises a diverse set of information representing the simulated behaviour of the Earth's climate system. Key components of climate model outputs include:
@@ -119,9 +122,10 @@ Scientists run various types of experiments on climate models to study different
 - Impact Assessments:  Models are employed to assess the potential impacts of climate change on ecosystems, agriculture, water resources, and human societies.
 
 - Paleoclimate Simulations:  Models are run to simulate past climates, including periods with different concentrations of greenhouse gases, ice ages, and warm intervals. 
+
 .. _datasources:
 Data Sources
----------
+------------
 
 CMIP6
 
@@ -148,7 +152,7 @@ Downscaling in climate science refers to the process of refining climate model o
 In general, increasing the spatial resolution of a model by a factor of two will require around 10 times the computing power to run in the same amount of time. (Source: https://scied.ucar.edu/longcontent/climate-modeling)
 
 Climate Model Emulation
-----------
+-----------------------
 
 Climate emulation involves the development of machine learning models to simulate climate model outputs. The goal is to create emulators that can predict climate variables with greater efficiency than traditional climate models during inference. In this context, emulators receive input data such as greenhouse gas emission trajectories and generate climate projections. ClimateSet serves as a valuable resource for large-scale climate emulation tasks by providing a comprehensive dataset derived from 36 climate models.
 
