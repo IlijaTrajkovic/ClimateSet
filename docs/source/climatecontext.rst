@@ -81,10 +81,10 @@ to emulate these models using much less computing power and hopefully achieving 
 .. figure:: climatemodel.png
    :width: 100%
    :align: center
-   :alt: Grid cells used by climate models and processes calculated in the model for each cell. Source: `NOAA GFDL <https://www.gfdl.noaa.gov/climate-modeling/>`
+   :alt: Grid cells used by climate models and processes calculated in the model for each cell. Source: `NOAA GFDL <noaalink>`_
 
    Grid cells used by climate models and processes calculated in the model for each cell. 
-   (Source: NOAA GFDL)
+   (Source: `NOAA GFDL <noaalink>`_)
 
 What are Forcings?
 ------------------
@@ -129,7 +129,7 @@ The IPCC Assessment Reports are comprehensive scientific evaluations of climate 
 They cover the physical science basis, impacts on ecosystems and societies, and options for mitigation. 
 The reports provide policymakers with crucial information for international climate negotiations and decisions. 
 The assessment process includes consensus-building and is regularly updated to reflect the latest scientific knowledge, 
-the most recent one being `IPCC AR 6 from July 2023 <https://www.ipcc.ch/assessment-report/ar6/>`.
+the most recent one being `IPCC AR 6 from July 2023 <ipcclink>`_.
 
 .. figure:: fig-1-4.jpg
    :width: 100%
@@ -137,7 +137,7 @@ the most recent one being `IPCC AR 6 from July 2023 <https://www.ipcc.ch/assessm
    :alt: The first four IPCC assessment reports and the resolutions used in them. Source: IPCC AR4, Fig 1.2
 
    The first four IPCC assessment reports and the resolutions used in them. 
-   (Source: IPCC AR4, Fig 1.2)
+   (Source: `IPCC AR4, Fig 1.2 <ipccfiglink>`_)
 
 Inputs and Outputs of a Climate Model
 -------------------------------------
@@ -348,7 +348,7 @@ Watson-Parris, D. (2021). Machine learning for weather and climate are worlds ap
 Philosophical Transactions of the Royal Society A, 379(2194), 20200098. https://doi.org/10.1098/rsta.2020.0098
 
 McSweeney, Robert. “Q&A: How Do Climate Models Work?” Carbon Brief, July 20, 2022. 
-https://www.carbonbrief.org/qa-how-do-climate-models-work/.
+https://www.carbonbrief.org/qa-how-do-climate-models-work/
 
 IPCC, 2018: Annex I: Glossary [Matthews, J.B.R. (ed.)]. In: Global Warming of 1.5°C. 
 An IPCC Special Report on the impacts of global warming of 1.5°C above pre-industrial 
@@ -358,3 +358,8 @@ eradicate poverty [Masson-Delmotte, V., P. Zhai, H.-O. Pörtner, D. Roberts, J. 
 A. Pirani, W. Moufouma-Okia, C. Péan, R. Pidcock, S. Connors, J.B.R. Matthews, Y. Chen, X. Zhou, 
 M.I. Gomis, E. Lonnoy, T. Maycock, M. Tignor, and T. Waterfield (eds.)]. Cambridge University Press, 
 Cambridge, UK and New York, NY, USA, pp. 541-562, doi:10.1017/9781009157940.008.
+
+
+.. _noaalink: https://www.gfdl.noaa.gov/climate-modeling/
+.. _ipcclink: https://www.ipcc.ch/assessment-report/ar6/
+.. _ipccfiglink: https://www.ipcc.ch/publications_and_data/ar4/wg1/en/figure-1-4.html
