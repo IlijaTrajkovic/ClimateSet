@@ -121,7 +121,7 @@ for understanding potential future climate conditions.
    :alt: Different SSP Scenarios. Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 
    Different SSP Scenarios. 
-   (Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons)
+   (Source: `Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>`_, via Wikimedia Commons)
 
 **IPCC Assessment Reports**
 
