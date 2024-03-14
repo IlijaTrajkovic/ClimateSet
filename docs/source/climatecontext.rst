@@ -288,8 +288,6 @@ such as agriculture, water resources, and infrastructure planning.
 In general, increasing the spatial resolution of a model by a factor of two will require 
 around 10 times the computing power to run in the same amount of time. [#]_
 
-.. [#] https://scied.ucar.edu/longcontent/climate-modeling
-
 Climate Model Emulation
 -----------------------
 
@@ -359,3 +357,5 @@ eradicate poverty [Masson-Delmotte, V., P. Zhai, H.-O. Pörtner, D. Roberts, J. 
 A. Pirani, W. Moufouma-Okia, C. Péan, R. Pidcock, S. Connors, J.B.R. Matthews, Y. Chen, X. Zhou, 
 M.I. Gomis, E. Lonnoy, T. Maycock, M. Tignor, and T. Waterfield (eds.)]. Cambridge University Press, 
 Cambridge, UK and New York, NY, USA, pp. 541-562, doi:10.1017/9781009157940.008.
+
+.. [#] https://scied.ucar.edu/longcontent/climate-modeling
