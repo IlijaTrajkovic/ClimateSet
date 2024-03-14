@@ -81,7 +81,7 @@ to emulate these models using much less computing power and hopefully achieving 
 .. figure:: climatemodel.png
    :width: 100%
    :align: center
-   :alt: Grid cells used by climate models and processes calculated in the model for each cell. Source: NOAA GFDL
+   :alt: Grid cells used by climate models and processes calculated in the model for each cell. Source: `NOAA GFDL <https://www.gfdl.noaa.gov/climate-modeling/>`
 
    Grid cells used by climate models and processes calculated in the model for each cell. 
    (Source: NOAA GFDL)
@@ -118,8 +118,7 @@ for understanding potential future climate conditions.
 .. figure:: Atmospheric_CO₂_concentrations_by_SSP_across_the_21st_century.png
    :width: 100%
    :align: center
-   :alt: Different SSP Scenarios. Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, 
-   via Wikimedia Commons
+   :alt: Different SSP Scenarios. Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 
    Different SSP Scenarios. 
    (Source: Sfdiversity, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons)
