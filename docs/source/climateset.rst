@@ -32,7 +32,7 @@ temporal and spatial resolution, and structure.
 It ensures that the data is ready for use in ML applications by syncing time-axis, 
 calendars, and height levels, and resolving other relevant issues.
  
-Users can access ClimateSet through the provided website (https://github.com/RolnickLab/ClimateSet), 
+Users can access ClimateSet through the provided `website <https://github.com/RolnickLab/ClimateSet>`_, 
 where both raw and processed data are available. 
 The **dataset can be extended** by users who desire additional scenarios, climate forcers, or 
 other variables, provided the requested data is available on 
