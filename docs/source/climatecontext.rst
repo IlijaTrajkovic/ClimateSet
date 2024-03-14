@@ -286,7 +286,7 @@ localised impacts of climate change and supporting more accurate decision-making
 such as agriculture, water resources, and infrastructure planning.
 
 In general, increasing the spatial resolution of a model by a factor of two will require 
-around 10 times the computing power to run in the same amount of time.[#]_
+around 10 times the computing power to run in the same amount of time. [#]_
 
 Climate Model Emulation
 -----------------------
