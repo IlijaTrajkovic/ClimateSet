@@ -81,10 +81,10 @@ to emulate these models using much less computing power and hopefully achieving 
 .. figure:: climatemodel.png
    :width: 100%
    :align: center
-   :alt: Grid cells used by climate models and processes calculated in the model for each cell. Source: `NOAA GFDL <noaalink>`_
+   :alt: Grid cells used by climate models and processes calculated in the model for each cell. Source: NOAA GFDL
 
    Grid cells used by climate models and processes calculated in the model for each cell. 
-   (Source: `NOAA GFDL <noaalink>`_)
+   (Source: `NOAA GFDL <https://www.gfdl.noaa.gov/climate-modeling/>`_)
 
 What are Forcings?
 ------------------
@@ -129,7 +129,7 @@ The IPCC Assessment Reports are comprehensive scientific evaluations of climate 
 They cover the physical science basis, impacts on ecosystems and societies, and options for mitigation. 
 The reports provide policymakers with crucial information for international climate negotiations and decisions. 
 The assessment process includes consensus-building and is regularly updated to reflect the latest scientific knowledge, 
-the most recent one being `IPCC AR 6 from July 2023 <ipcclink>`_.
+the most recent one being `IPCC AR 6 from July 2023 <https://www.ipcc.ch/assessment-report/ar6/>`_.
 
 .. figure:: fig-1-4.jpg
    :width: 100%
@@ -137,7 +137,7 @@ the most recent one being `IPCC AR 6 from July 2023 <ipcclink>`_.
    :alt: The first four IPCC assessment reports and the resolutions used in them. Source: IPCC AR4, Fig 1.2
 
    The first four IPCC assessment reports and the resolutions used in them. 
-   (Source: `IPCC AR4, Fig 1.2 <ipccfiglink>`_)
+   (Source: `IPCC AR4, Fig 1.2 <https://www.ipcc.ch/publications_and_data/ar4/wg1/en/figure-1-4.html>`_)
 
 Inputs and Outputs of a Climate Model
 -------------------------------------
@@ -358,8 +358,3 @@ eradicate poverty [Masson-Delmotte, V., P. Zhai, H.-O. Pörtner, D. Roberts, J. 
 A. Pirani, W. Moufouma-Okia, C. Péan, R. Pidcock, S. Connors, J.B.R. Matthews, Y. Chen, X. Zhou, 
 M.I. Gomis, E. Lonnoy, T. Maycock, M. Tignor, and T. Waterfield (eds.)]. Cambridge University Press, 
 Cambridge, UK and New York, NY, USA, pp. 541-562, doi:10.1017/9781009157940.008.
-
-
-.. _noaalink: https://www.gfdl.noaa.gov/climate-modeling/
-.. _ipcclink: https://www.ipcc.ch/assessment-report/ar6/
-.. _ipccfiglink: https://www.ipcc.ch/publications_and_data/ar4/wg1/en/figure-1-4.html
